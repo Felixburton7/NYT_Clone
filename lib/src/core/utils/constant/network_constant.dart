@@ -1,5 +1,5 @@
 const String apiUrl = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed/";
-const String apiKey = "WiRqmPm4mBO4ssOsQL7uWDS0lJO4KviJ";
+const String apiKey = "inACkvL4GGvVtfCH4kItDmfcCGTGl8BA";
 
 String getApiKeyPath() {
   return "?api-key=$apiKey";

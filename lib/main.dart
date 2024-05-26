@@ -1,4 +1,3 @@
-import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -14,7 +13,6 @@ import 'package:provider/provider.dart';
 
 import 'src/shared/domain/entities/language_enum.dart';
 
-
 final navigatorKey = GlobalKey<NavigatorState>();
 
 void main() async {
@@ -23,12 +21,7 @@ void main() async {
   // Inject all dependencies
   await initInjections();
 
-  runApp(DevicePreview(
-    builder: (context) {
-      return const App();
-    },
-    enabled: false,
-  ));
+  runApp(const App());
 
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
@@ -92,7 +85,6 @@ class _AppState extends State<App> with WidgetsBindingObserver {
                 theme: Helper.isDarkTheme() ? darkAppTheme : appTheme,
                 debugShowCheckedModeBanner: false,
                 locale: locale,
-                builder: DevicePreview.appBuilder,
                 localizationsDelegates: const [
                   S.delegate,
                   GlobalMaterialLocalizations.delegate,
