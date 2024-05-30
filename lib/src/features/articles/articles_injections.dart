@@ -7,7 +7,12 @@ import 'data/data_sources/local/articles_shared_prefs.dart';
 import 'data/repositories/articles_repo_impl.dart';
 import 'domain/usecases/articles_usecase.dart';
 
+
+//AbstractArticlesRepository is registerd as teh implementation of Articles Repository Implemmented. 
+
+
 initArticlesInjections() {
+  // Registers an instance of ArticlesImpApi using DioNetwork.appAPI
   sl.registerSingleton<ArticlesImplApi>(ArticlesImplApi(DioNetwork.appAPI));
   sl.registerSingleton<AbstractArticlesRepository>(ArticlesRepositoryImpl(sl()));
   sl.registerSingleton<ArticlesSharedPrefs>(ArticlesSharedPrefs(sl()));
