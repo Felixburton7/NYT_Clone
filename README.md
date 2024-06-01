@@ -1,73 +1,54 @@
 # Articles App
 
-# Medium Articles
-[Clean Architecture in Flutter](https://medium.com/@yamen.abd98/clean-architecture-in-flutter-mvvm-bloc-dio-79b1615530e1)
-
-[Unit Testing with Clean Architecture in Flutter | Mockito](https://medium.com/@yamen.abd98/unit-testing-in-flutter-with-clean-architecture-49d403645b4d)
-
-
-
-A new Flutter project with Clean Architecture to fetch thw New Work Time
-Articles, display article details, and see more about details from url.
+I created a new Flutter project using Clean Architecture to fetch New York Times articles, display article details, and provide more information via URLs.
 
 ## Getting Started
-
-## Prerequisites
 
 - Flutter SDK
 - Android Studio or VS Code
 - Dart plugin for your IDE
 
-## Installing
+### Installing
 
-- Clone the repository ```git clone https://github.com/YAMMEN98/ny-times-flutter-app.git```
-- Open the project in Android Studio or VS Code.
-- Run the app on an emulator or physical device.
+1. Clone the repository: `git clone https://github.com/YAMMEN98/ny-times-flutter-app.git`
+2. Open the project in Android Studio or VS Code.
+3. Run the app on an emulator or physical device.
 
-## Feature
+## Features
 
-- Get all ny times articles.
-- Search articles.
-- Filter article by ```period```
+- Retrieve all New York Times articles.
+- Search for articles.
+- Filter articles by period.
 - Display article details.
-- Apply Dark/Light theme.
-- Apply localization en/ar languages.
-- View Image And Zoom It.
-- Create a lane to generate apk automatically when upload code to the main branch.
+- Toggle between Dark/Light themes.
+- Support for English and Arabic languages.
+- View and zoom images.
+- Automatically generate an APK when code is uploaded to the main branch.
 
-![Text Coverage](https://github.com/YAMMEN98/ny-times-flutter-app/blob/main/actions.png)
 
-- Apply Unit Testing .
+- Apply Unit Testing.
 
 ## Built With
 
-- [Flutter](https://github.com/vedranMv/dataDashboard/releases) - The framework used).
-- [The New Work a Times API](https://developer.nytimes.com/) - API used for weather data.
+- Flutter - The framework used.
+- The New York Times API - API used for article data.
 
-## Unit Test
+## Unit Tests
 
-To run test you should follow the steps:
+To run tests, follow these steps:
 
-- run command ```flutter test```
-- If you want to get coverage file from Unit Test run this.command ```flutter test --coverage```
+1. Run the command: `flutter test`
+2. To get a coverage file from Unit Tests, run: `flutter test --coverage`
 
-There is many tools to generate text coverage,
-we will use [test_cov_console](https://pub.dev/packages/test_cov_console) to generate coverage
-report, follow these steps to run it:
+To generate a text coverage report, we use the `test_cov_console` package. Follow these steps:
 
-- Run the following command to make sure all flutter library is up-to-date ```flutter pub get```,
-    - Run the following command to generate lcov.info on coverage
-      directory ```flutter test --coverage```,
-    - Run the tool to generate report from lcov.info to the
-      console ```flutter pub run test_cov_console```,
-    - You can follow and see more of parameters
-      in [test_cov_console](https://pub.dev/packages/test_cov_console).
-    - You Can Output report to CSV file (-c, --csv, -o, --output)
-      by ```flutter pub run test_cov_console -c --output=coverage/test_coverage.csv```
-    - Open CSV file by excel and you will see like this result:
+1. Ensure all Flutter libraries are up-to-date: `flutter pub get`
+2. Generate the `lcov.info` file in the coverage directory: `flutter test --coverage`
+3. Generate a report from `lcov.info` to the console: `flutter pub run test_cov_console`
+4. To output the report to a CSV file: `flutter pub run test_cov_console -c --output=coverage/test_coverage.csv`
+5. Open the CSV file in Excel to see the results.
 
-      ![Text Coverage](https://github.com/YAMMEN98/ny-times-flutter-app/blob/main/test_coverage.png)
 
 ## Author
 
-Yamen Abdullrahman - Senior Flutter Developer;
+Felix Burton - Flutter Developer. 
