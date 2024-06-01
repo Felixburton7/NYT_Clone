@@ -10,7 +10,7 @@ I created a new Flutter project using Clean Architecture to fetch New York Times
 
 ### Installing
 
-1. Clone the repository: `git clone https://github.com/YAMMEN98/ny-times-flutter-app.git`
+1. Clone this repo.
 2. Open the project in Android Studio or VS Code.
 3. Run the app on an emulator or physical device.
 
