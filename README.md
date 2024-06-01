@@ -1,6 +1,5 @@
 # Articles App
-
-I created a new Flutter project using Clean Architecture to fetch New York Times articles, display article details, and provide more information via URLs.
+I built a new Flutter project using Clean Architecture to fetch New York Times articles, display article details, and provide more information via URLs, inspired by Yamen Abdulrahman work. 
 
 ## Getting Started
 
@@ -51,4 +50,4 @@ To generate a text coverage report, we use the `test_cov_console` package. Follo
 
 ## Author
 
-Felix Burton - Flutter Developer. 
+Felix Burton - Flutter Developer, and used code from Yamen Abdulrahman. 
