@@ -1,5 +1,5 @@
 # Articles App
-I built a new Flutter project using Clean Architecture to fetch New York Times articles, display article details, and provide more information via URLs, inspired by Yamen Abdulrahman work. 
+I built a new Flutter project using Clean Architecture to fetch New York Times articles, display article details, and provide more information via URLs, inspired by Yamen Abdulrahman's work. 
 
 ## Getting Started
 
