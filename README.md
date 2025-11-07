@@ -24,7 +24,6 @@ I built a new Flutter project using Clean Architecture to fetch New York Times a
 - View and zoom images.
 - Automatically generate an APK when code is uploaded to the main branch.
 
-
 - Apply Unit Testing.
 
 ## Built With
